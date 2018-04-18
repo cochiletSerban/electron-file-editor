@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>textReader</title>
+	<link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+	    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class='container'>
+		<div class="row">
+			<div class="well" style="overflow-x:auto;">
+				<form>
+    				<div class="form-group">
+      					<label for="comment">Input Some text:</label>
+      					<textarea class="form-control" rows="5" id="comment" ></textarea>
+      					<button type="button" id="pl" class="btn-primary">Submit</button>
+    				</div>
+ 				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	require('./renderer.js');
+</script>
+</html>
+
+
